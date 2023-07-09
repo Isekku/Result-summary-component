@@ -6,21 +6,26 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="reset.css">
-  
+  <link rel="stylesheet" href="index.css">
+
   <title>Frontend Mentor | Results summary component</title>
 
 </head>
 <body>
 
-  <div id="bigContainer"£>
+  <div id="bigContainer">
 
     <div id="resultContainer" class="subContainer">
-
+      
       <h1 id="resultTitle">Your Result</h1>
 
       <div id="notationBubble">
-        <p id="finalScore">76</p>
-        <p id="totalScore">of 100</p>
+
+        <div id="finalScoreBubble">
+          <p id="finalScore">76<span id="totalScore">of 100</span></p>
+        </div>
+        <!-- <p id="totalScore">of 100</p> -->
+        
       </div>
       
       <div id="rankContainer">
