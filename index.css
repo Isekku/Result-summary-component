@@ -1,3 +1,21 @@
+@font-face{
+    font-family: 'HankenGrotesk';
+    font-weight: 500;
+    src: url('/assets/fonts/static/HankenGrotesk-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    font-weight: bold;
+    src: url('/assets/fonts/static/HankenGrotesk-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HankenGrotesk';
+    font-weight: bolder;
+    src: url('/assets/fonts/static/HankenGrotesk-ExtraBold.ttf');
+}
+
 html{
     height: 100%;
     width: 100%;
@@ -27,15 +45,18 @@ body{
 }
 
 #resultContainer{
-    background-color: blue;
+    background: linear-gradient(0deg, hsl(241, 81%, 54%) 0%, hsl(250, 100%, 63%) 100%);
     border-radius: 30px;
 }
 
 #resultTitle{
     flex: 1;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    font-size: 1.1em;
+    color: hsl(241, 100%, 89%);
+    font-family: 'HankenGrotesk';
+    font-weight: 500;
 }
 
 #notationBubble{
@@ -53,22 +74,26 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: brown;
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 0%, hsla(241, 72%, 46%, 0) 100%);
     border-radius: 49%;
 }
 
 #finalScore{
     font-size: 3em;
-    color: white;
+    color: hsl(221, 100%, 96%);
     margin-top: 20px;
+    font-family: 'HankenGrotesk';
+    font-weight: bolder;
 }
 
 #totalScore{
     font-size: 14px;
-    color: red;
+    color: hsla(241, 100%, 89%, 0.5);
     text-align: center;
     display: block;
     margin-top: 15px;
+    font-family: 'HankenGrotesk';
+    font-weight: 500;
 }
 
 #rankContainer{
@@ -80,6 +105,10 @@ body{
 #rankTitle{
     text-align: center;
     flex: 1;
+    font-size: 1.5em;
+    color: hsl(221, 100%, 96%);
+    font-family: 'HankenGrotesk';
+    font-weight: bold;
 }
 
 #rankDescription{
@@ -87,5 +116,9 @@ body{
     display: flex;
     align-self: center;
     width: 75%;
-    flex: 5;
+    flex: 3;
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+    font-family: 'HankenGrotesk';
+    font-weight: 500;
 }
