@@ -126,9 +126,9 @@ body{
 /* Evaluation side */
 
 #centeredContainer{
-    flex: 1;
+    flex: 0.9;
     display: flex;
-    padding: 30px 20px;
+    padding: 30px;
 }
 
 .subEvaluation{
@@ -151,7 +151,7 @@ body{
 }
 
 #summaryTitle{
-    flex: 4;
+    flex: 5;
     font-family: 'HankenGrotesk';
     font-weight: bold;
     font-size: 1.3em;
@@ -221,9 +221,9 @@ body{
     flex: 5;
     background-color: hsl(224, 30%, 27%);
     color: hsla(221, 100%, 96%, 0.9);
-    font-size: 1.1em;
+    font-size: 15px;
     font-family: 'HankenGrotesk';
-    font-weight: bold;
+    font-weight: 500;
     border-radius: 30px;
     align-items: center;
     justify-content: center;
