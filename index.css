@@ -31,10 +31,10 @@ body{
 
 #bigContainer{
     display: flex;
-    width: 545px;
-    height: 380px;
-    background-color: yellow;
+    width: 590px;
+    height: 410px;
     border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.04);
 }
 
 .subContainer{
@@ -56,7 +56,7 @@ body{
     font-size: 1.1em;
     color: hsl(241, 100%, 89%);
     font-family: 'HankenGrotesk';
-    font-weight: 500;
+    font-weight: bold;
 }
 
 #notationBubble{
@@ -121,4 +121,111 @@ body{
     color: hsl(241, 100%, 89%);
     font-family: 'HankenGrotesk';
     font-weight: 500;
+}
+
+/* Evaluation side */
+
+#centeredContainer{
+    flex: 1;
+    display: flex;
+    padding: 30px 20px;
+}
+
+.subEvaluation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 7px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+}
+
+#summaryContainer{
+    display: flex;
+    align-items: normal;
+}
+
+#summaryTitle{
+    flex: 4;
+    font-family: 'HankenGrotesk';
+    font-weight: bold;
+    font-size: 1.3em;
+    color: hsl(224, 30%, 27%);
+}
+
+#evaluationTable{
+    flex: 20;
+    display: flex;
+    flex-direction: column;
+}
+
+.bubbleTitle{
+    font-family: 'HankenGrotesk';
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 10px;
+}
+
+.notation{
+    text-align: end;
+    font-family: 'HankenGrotesk';
+    font-weight: bold;
+    color: rgba(42, 48, 118, 0.5);
+}
+
+.boldNotation{
+    font-family: 'HankenGrotesk';
+    font-weight: bolder;
+}
+
+#reactionNote{
+    background-color: hsla(0, 100%, 67%, 0.06);
+}
+
+#reactionTitle{
+    color: rgb(216, 134, 136);
+}
+
+#memoryNote{
+    background-color: hsla(39, 100%, 56%, 0.06);
+
+}
+
+#memoryTitle{
+    color: rgb(217, 191, 98);
+}
+
+#verbalNote{
+    background-color: hsla(166, 100%, 37%, 0.06);
+}
+
+#verbalTitle{
+    color: rgb(52, 166, 138);
+}
+
+#visualNote{
+    background-color: hsla(234, 85%, 45%, 0.06);
+}
+
+#visualTitle{
+    color: rgb(42, 48, 118);
+}
+
+#continueButton{
+    display: flex;
+    flex: 5;
+    background-color: hsl(224, 30%, 27%);
+    color: hsla(221, 100%, 96%, 0.9);
+    font-size: 1.1em;
+    font-family: 'HankenGrotesk';
+    font-weight: bold;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
 }
